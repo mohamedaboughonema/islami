@@ -5,3 +5,4 @@ library;
 /// - sebha screen
 /// - radio screen
 /// - time screen
+/// - splash screen

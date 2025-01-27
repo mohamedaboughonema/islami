@@ -16,6 +16,8 @@ class HadethTab extends StatefulWidget {
 class _HadethTabState extends State<HadethTab> {
   @override
   Widget build(BuildContext context) {
+    var height = MediaQuery.of(context).size.height;
+    // var width = MediaQuery.of(context).size.width;
     if (hadethList.isEmpty) {
       loadHadethFile();
     }
@@ -103,7 +105,7 @@ class _HadethTabState extends State<HadethTab> {
                       ),
                     ),
                 options: CarouselOptions(
-                  height: 500,
+                  height: height * 0.7,
                   // aspectRatio: 16 / 9,
                   viewportFraction: 0.8,
                   initialPage: 0,
