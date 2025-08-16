@@ -3,7 +3,7 @@ import 'package:islami_app/app_styles/app_color.dart';
 import 'package:islami_app/hadeth/hadeth_tab.dart';
 import 'package:islami_app/quran/quran_tab.dart';
 import 'package:islami_app/radio/radio_tab.dart';
-import 'package:islami_app/sebha/sebha_Tab.dart';
+import 'package:islami_app/sebha/sebha_tab.dart';
 import 'package:islami_app/time/time_tab.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -92,6 +92,7 @@ class _HomeScreenState extends State<HomeScreen> {
             padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 6),
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(66),
+                // ignore: deprecated_member_use
                 color: AppColor.grey.withOpacity(0.6)),
             child: ImageIcon(AssetImage(imagePath)),
           )

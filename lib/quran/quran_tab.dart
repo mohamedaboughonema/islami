@@ -236,10 +236,11 @@ class _QuranTabState extends State<QuranTab> {
               ],
             ),
             const SizedBox(
-              width: 15,
+              width: 5,
             ),
             Image.asset(
               'assets/images/most_recently_image.png',
+              width: 130,
             )
           ],
         ),

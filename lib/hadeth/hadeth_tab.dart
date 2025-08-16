@@ -105,7 +105,7 @@ class _HadethTabState extends State<HadethTab> {
                       ),
                     ),
                 options: CarouselOptions(
-                  height: height * 0.7,
+                  height: height * 0.65,
                   // aspectRatio: 16 / 9,
                   viewportFraction: 0.8,
                   initialPage: 0,
