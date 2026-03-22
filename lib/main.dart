@@ -6,10 +6,13 @@ import 'package:islami_app/app_styles/app_theme.dart';
 import 'package:islami_app/hadeth/hadeth_content_screen.dart';
 import 'package:islami_app/home_screen.dart';
 import 'package:islami_app/on_boarding_screen.dart';
+import 'package:islami_app/provider/radio_manager_provider.dart';
 import 'package:islami_app/quran/sura_content_screen.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(ChangeNotifierProvider(
+      create: (context) => RadioManagerProvider(), child: const MyApp()));
 }
 
 // test commit

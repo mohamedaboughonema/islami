@@ -21,6 +21,7 @@ class OnBoardingPageState extends State<OnBoardingScreen> {
     );
   }
 
+  // ignore: unused_element
   Widget _buildFullscreenImage() {
     return Image.asset(
       'assets/fullscreen.jpg',

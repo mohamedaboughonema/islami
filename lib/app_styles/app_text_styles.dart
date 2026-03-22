@@ -5,4 +5,6 @@ import 'package:islami_app/app_styles/app_color.dart';
 class AppTextStyle {
   static TextStyle bold16white = GoogleFonts.aBeeZee(
       fontSize: 16, fontWeight: FontWeight.bold, color: AppColor.white);
+  static TextStyle bold16DarkGold = GoogleFonts.aBeeZee(
+      fontSize: 16, fontWeight: FontWeight.bold, color: AppColor.darkGold);
 }
